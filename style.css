@@ -30,11 +30,56 @@ body {
 .sidebar {
     grid-area: 1 / 1 / 3 / 2;
     display: grid;
-    grid-template-rows: 0.1fr 0.3fr 0.6fr;
+    grid-template: 1fr 3fr 6fr / 1fr 3fr;
     background-color: #38bdf8;
     font-weight: bold;
+    font-size: 20px;
     color: #ffffff;
+    place-items: top start;
 }
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 20px;
+    height: auto;
+    padding: 6px 0 10px 0;
+}
+
+.logo, .menu-navigation,
+.settings {
+    padding: 20px 0 0 20px;
+}
+
+.logo {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.menu-navigation {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.settings {
+    grid-area: 3 / 1 / 4 / 3;
+    display: grid;
+    grid-template: 1fr / 0.5fr 3fr;
+}
+
+.icons-settings {
+    grid-column: 1 / 2;
+    width: 20px;
+}
+
+.settings ul {
+    grid-column: 2 / 3;
+}
+
+.settings ul li{
+    padding-bottom: 14px;
+}
+
 
 .main-content {
     grid-area: 2 / 2 / 3 / 3;
