@@ -27,11 +27,27 @@ body {
     grid-area: 1 / 2 / 2 / 3;
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
+    padding: 30px 0 0 30px;
 }
 
 .search-bar {
     grid-area: 1 / 1 / 2 / 2;
-    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: top;
+    justify-items: left;
+}
+
+.icons-search {
+    padding-top: 4px;
+}
+
+#empty-field {
+    background-color: #ececec;
+    border: 1px solid #ececec;
+    border-radius: 25px;
+    width: 400px;
+    height: auto;
 }
 
 .profile-pic {
