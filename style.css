@@ -99,7 +99,18 @@ body {
 
 .do {
     grid-area: 2 / 2 / 3 / 3;
-    border: 1px solid red;
+}
+
+.do button {
+    background-color: #38bdf8;
+    color: #ffffff;
+    padding: 8px 32px;
+    margin: 0 10px 0 10px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
 }
 
 .sidebar {
