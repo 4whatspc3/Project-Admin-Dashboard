@@ -192,4 +192,6 @@ img {
 
 .main-content {
     grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
