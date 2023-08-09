@@ -195,3 +195,23 @@ img {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
+.projects {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-rows: 0.5fr 5fr;
+}
+
+.projects p {
+    grid-row: 1 / 2;
+}
+
+.cards {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+}
+
+.content-card {
+
+}
