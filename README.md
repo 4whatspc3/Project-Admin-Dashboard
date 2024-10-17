@@ -1,2 +1,4 @@
 # Project-Admin-Dashboard
-I'm going to build a full dashboard design. The goal here is to rely on Grid for the majority of the layout work.
+This project involved creating a custom dashboard to visualize work-related data and personal interests.
+
+The goal was to rely on CSS Grid for the majority of the layout work.
